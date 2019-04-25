@@ -1,0 +1,21 @@
+{
+  "name": "node_rest_api",
+  "version": "1.0.0",
+  "description": "node rest api ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Gavin Mc Gregor",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
