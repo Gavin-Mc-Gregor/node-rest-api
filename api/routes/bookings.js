@@ -7,7 +7,7 @@ const connection = mysql.createConnection({
     connectionLimit : 10,
     host     : 'localhost',
     user     : 'root',
-    password : 'In-10-sity*',
+    password : '',
     database : 'qrscanner',
     debug    : false 
 })
